@@ -1,0 +1,16 @@
+format: jb-book
+root: docs/introduction/title
+parts:
+- caption: Front Matter
+  chapters:
+  - file: docs/FrontMatter/table_of_contents.md
+- caption: Chapter 1
+  chapters:
+  - file: docs/ch01/overview
+- caption: Chapter 2
+  chapters:
+  - file: docs/ch02/overview
+  - file: docs/ch02/ch2.1.ipynb
+- caption: Chapter 3
+  chapters:
+  - file: docs/ch03/overview
