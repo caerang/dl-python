@@ -1,5 +1,7 @@
 format: jb-book
 root: docs/introduction/title
+options:
+  numbered: True
 parts:
 - caption: Front Matter
   chapters:
@@ -10,7 +12,8 @@ parts:
 - caption: Chapter 2
   chapters:
   - file: docs/ch02/overview
-  - file: docs/ch02/ch2.1.ipynb
+  - file: docs/ch02/2.1.ipynb
+  - file: docs/ch02/2.2.ipynb
 - caption: Chapter 3
   chapters:
   - file: docs/ch03/overview
